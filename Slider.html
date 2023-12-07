@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Slider Images</title>
+    <link rel="stylesheet" href="Slider.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="slide">
+        <img src="img/Rise.jpg" alt="SunRise" />
+        <div class="caption">SunRise</div>
+      </div>
+      <div class="slide">
+        <img src="img/Set.jpg" alt="SunSet" />
+        <div class="caption">SunSet</div>
+      </div>
+      <div class="slide">
+        <img src="img/Moon.jpg" alt="Moon" />
+        <div class="caption">Moon</div>
+      </div>
+      <div class="slide">
+        <img src="img/HalfMoon.jpg" alt="HalfMoon" />
+        <div class="caption">HalfMoon</div>
+      </div>
+      <!-- Code for generating two arrow icons -->
+      <span class="arrow prev" onclick="controller(-1)">&#8656;</span>
+      <span class="arrow next" onclick="controller(1)">&#8658;</span>
+    </div>
+    <script src="Slider.js"></script>
+  </body>
+</html>
